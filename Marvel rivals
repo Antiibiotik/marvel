@@ -1,0 +1,7 @@
+echo "# marvel" >> README.md 
+git init 
+git add README.md 
+git commit -m "premier commit" 
+git branch -M main 
+git remote add origine https://x.com/MarvelRivals
+ git push -u origine main
